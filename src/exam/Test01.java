@@ -6,7 +6,7 @@ package exam;
 이때 2의 배수의 합과 3의 배수의 합을 더해서 5의 배수의 합을 뺀 결과도 마지막에 출력하시오.
 */
 
-public class Test1 {
+public class Test01 {
 	public static void main(String[] args) {
 		int i = 0, cnt2 = 0, cnt3 = 0, cnt5 = 0, tot2 = 0, tot3 = 0, tot5=0; //누적은 무조건 초기값 입력해야한다!
 		

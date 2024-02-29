@@ -3,7 +3,7 @@ package t1_if;
 import java.util.Scanner;
 
 // 두개의 수를 교환
-public class Test1 {
+public class Test01 {
 	public static void main(String[] args) {
 		Scanner sc = new Scanner(System.in);
 		

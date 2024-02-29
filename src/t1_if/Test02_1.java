@@ -1,7 +1,7 @@
 package t1_if;
 
 // 논리 연산자 (!not, &&and, ||or)
-public class Test2{
+public class Test02_1{
 	public static void main(String[] args) {
 		int su1 = 20, su2 = 15, su3 = 12, max = -99;
 		

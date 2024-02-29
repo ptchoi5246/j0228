@@ -3,7 +3,7 @@ package t1_if;
 import java.util.Scanner;
 
 // 3과목의 점수를 입력받는다. 이때 3과목의 평균점수가 60점이상이고, 각 과목당 40점 이상이면 '합격', 그렇지 않으면 '불합격'
-public class Test3 {
+public class Test03_3 {
 	public static void main(String[] args) {
 		Scanner sc = new Scanner(System.in);
 		
@@ -16,26 +16,11 @@ public class Test3 {
 		
 		avg = (jum1 + jum2 + jum3) / 3;
 		
-		if(avg >= 60) {
-			if(jum1 >= 40) {
-				if(jum2 >= 40) {
-					if(jum3 >= 40) {
-						str = "합격";
-					}
-					else {
-						str = "불합격";
-					}
-				}
-				else {
-					str = "불합격";
-				}
-			}
-			else {
-				str = "불합격";
-			}
-		}
-		else {
+		if(avg < 60 || jum1 < 40 || jum2 < 40 || jum3 < 40) {
 			str = "불합격";
+		}//or 둘 중에 하나가 참이면 참. 시간 복잡도 생각하기
+		else {
+			str = "합격";
 		}
 		System.out.println("당신은 " + str + " 입니다.");
 		

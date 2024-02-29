@@ -1,7 +1,7 @@
 package t3_while;
 
 // 1~100까지의 홀수합
-public class Test3 {
+public class Test03 {
 	public static void main(String[] args) {
 		int i = -1, tot = 0; //누적값은 건들지 않는다.
 		

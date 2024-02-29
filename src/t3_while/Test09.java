@@ -1,7 +1,7 @@
 package t3_while;
 
 // 1~100까지의 홀수합/짝수합
-public class Test9 {
+public class Test09 {
 	public static void main(String[] args) {
 		int i = 0, odd = 0, even = 0;
 		

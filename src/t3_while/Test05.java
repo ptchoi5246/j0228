@@ -13,7 +13,7 @@ package t3_while;
    81 ~ 90 : __ 
    91 ~ 100 : 
  */
-public class Test5 {
+public class Test05 {
 	public static void main(String[] args) {
 		int i = 0, tot = 0;
 		

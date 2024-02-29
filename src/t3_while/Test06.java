@@ -1,7 +1,7 @@
 package t3_while;
 
 // 1+1+2+1+2+3+1+2+3+4+1+2+3+4+5+~~~~~~+1+2+3+4+5+6+7+8+9+10 = ?
-public class Test6 {
+public class Test06 {
 	public static void main(String[] args) {
 		int i = 0, tot = 0, hap = 0;
 		

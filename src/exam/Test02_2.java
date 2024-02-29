@@ -8,7 +8,7 @@ import java.util.Scanner;
 여기서 두개의 숫자는 임의의 숫자를 입력할수 있기에 첫번째숫자가 더 큰 숫자가 먼저 입력될수도 있다. :: 두 숫자의 교환 (앞의 숫자가 크면 교환)
 */
 
-public class Test2_2 {
+public class Test02_2 {
 	public static void main(String[] args) {
 		Scanner sc = new Scanner(System.in);
 		int su1, su2, tot = 0, temp = 0, cnt = 0, total = 0, startSu;

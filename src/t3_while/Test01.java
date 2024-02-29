@@ -1,7 +1,7 @@
 package t3_while;
 
 // 1~100까지의 합
-public class Test1 {
+public class Test01 {
 	public static void main(String[] args) {
 		int i = 0, tot = 0;
 		

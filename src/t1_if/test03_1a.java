@@ -3,7 +3,7 @@ package t1_if;
 import java.util.Scanner;
 
 // 3과목의 점수를 입력받는다. 이때 3과목의 평균점수가 60점이상이고, 각 과목당 40점 이상이면 '합격', 그렇지 않으면 '불합격'
-public class test3_p {
+public class test03_1a {
 	public static void main(String[] args) {
 
 		Scanner sc = new Scanner(System.in);
