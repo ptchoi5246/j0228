@@ -7,9 +7,9 @@ public class Test09a {
 		
 		while(i < 100) {
 			i = i + 1;
-			odd = odd + i;
+			odd+=i;
 			i = i + 1;
-			even = even + i;
+			even+= i;
 		}
 		
 		System.out.println("1 ~ 100까지의 홀수합은? " + odd);
