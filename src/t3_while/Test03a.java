@@ -6,7 +6,7 @@ public class Test03a {
 		int i = -1, tot = 0;
 		
 		while (i < 99) { //범위도 홀수로 수정
-			i = i + 2;
+			i = i + 2; //홀수로 가야하니까 i+2 첫번째 숫자가 1이어야 하니까 i = -1
 			tot = tot + i;
 		}
 		
